@@ -17,16 +17,16 @@
  * under the License.
  */
 
- package main
+package main
 
- import (
+import (
+	"github.com/elastic/beats/v7/packetbeat/cmd"
+	_ "github.com/Shoothzj/pulsar-beat-output/pulsar"
 	"os"
-	_ "github.com/streamnative/pulsar-beat-output/pulsar"
-	"github.com/elastic/beats/v7/x-pack/packetbeat/cmd"
- )
- 
- func main() {
+)
+
+func main() {
 	if err := cmd.RootCmd.Execute(); err != nil {
 		os.Exit(1)
 	}
- }
+}

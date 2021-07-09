@@ -3,9 +3,9 @@ package main
 import (
 	"os"
 
+	"github.com/elastic/beats/v7/heartbeat/cmd"
 	_ "github.com/elastic/beats/v7/heartbeat/include"
-	"github.com/elastic/beats/v7/x-pack/heartbeat/cmd"
-	_ "github.com/streamnative/pulsar-beat-output/pulsar"
+	_ "github.com/Shoothzj/pulsar-beat-output/pulsar"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-module github.com/streamnative/pulsar-beat-output
+module github.com/Shoothzj/pulsar-beat-output
 
 go 1.14
 

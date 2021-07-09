@@ -25,17 +25,6 @@ builds:
   #       - 386
   #       - amd64
   #   main: ./auditbeat/auditbeat.go
-  - id: "functionbeat"
-    env:
-      - CGO_ENABLED=0
-    binary: functionbeat
-    goos:
-      - linux
-      - darwin
-    goarch:
-      - 386
-      - amd64
-    main: ./functionbeat/functionbeat.go
   - id: "heartbeat"
     env:
       - CGO_ENABLED=0
