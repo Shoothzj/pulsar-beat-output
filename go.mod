@@ -5,7 +5,6 @@ go 1.14
 require (
 	github.com/apache/pulsar-client-go v0.5.0
 	github.com/elastic/beats/v7 v7.13.2
-	github.com/godror/godror v0.10.4 // indirect
 	github.com/sirupsen/logrus v1.4.2
 	github.com/stretchr/testify v1.7.0
 )
